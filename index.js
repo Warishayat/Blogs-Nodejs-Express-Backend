@@ -2,11 +2,11 @@ const express = require('express');
 const body_parser = require('body-parser')
 const dotenv = require('dotenv').config()
 const cors = require('cors')
-const ConnectDB = require('../Blogs-Nodejs-Express-Backend/Config/database')
-const AuthRoutes = require('../Blogs-Nodejs-Express-Backend/Routes/AuthRoutes')
-const  Authenticate = require("../Blogs-Nodejs-Express-Backend/Middleware/Authenticate")
-const post_router = require('../Blogs-Nodejs-Express-Backend/Routes/PostRouter')
-const contact_router = require('../Blogs-Nodejs-Express-Backend/Routes/FormRouter')
+const ConnectDB = require('./Config/database')
+const AuthRoutes = require('./Routes/AuthRoutes')
+const Authenticate = require("./Middleware/Authenticate")
+const post_router = require('./Routes/PostRouter')
+const contact_router = require('./Routes/FormRouter')
 const app = express()
 
 app.use(express.json());

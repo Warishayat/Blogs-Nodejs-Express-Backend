@@ -218,7 +218,4 @@ This project is licensed under the **MIT License** — feel free to use and modi
 
 ```
 
----
 
-Would you like me to make this **auto-generated README file** (`README.md`) and save it so you can push it directly to GitHub?
-```
